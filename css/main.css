@@ -1,0 +1,190 @@
+@font-face {
+
+
+	font-family: colossalis;
+	src: url('Colossalis Bold.ttf');
+}
+
+body {
+
+	border-top: 8px  #ec8e08 solid;
+	color: #888;
+	font-family: "Trebuchet MS", Tahoma, Arial;
+}
+
+.container {
+
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+	color: #ec8e08;
+	font-family: colossalis, Impact, sans-serif;
+
+}
+
+/*  Logo  */
+
+.logo h2 {
+
+	display: inline-block;
+	font-size: 3em;
+	padding-right: 5px;
+	margin-top: 0px;
+}
+
+.logo h3 {
+
+	display: inline-block;
+	color: #a1a1a1;
+	font: 1.75em "Trebuchet MS", Tahoma, Arial;
+	border-left: 2px solid #a1a1a1;
+	padding-left: 10px;
+	position: relative;
+	top: -0.2em;
+}
+
+.logo {
+
+	float: left;
+	max-width: 50%;
+
+}
+
+/*  Social Media  */
+
+.social {
+
+	float: right;
+	text-align: right;
+}
+
+
+.social ul{
+
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.social ul li {
+
+	display: inline-block;
+
+}
+
+.social  a i {
+
+	text-decoration: none;
+	color: #a1a1a1;
+	font-size: 2.5em;
+	transition: color .5s;
+	-webkit-transition: color .5s;
+	-moz-transition: color .5s;
+
+}
+
+.social a:hover i.fa-facebook-square {
+
+	color: #3b5998;
+}
+
+.social a:hover i.fa-twitter-square {
+
+	color: #00acee;
+}
+.social a:hover i.fa-google-plus-square {
+
+	color: #dd1812;
+}
+.social a:hover i.fa-youtube-play {
+
+	color: #c4302b;
+}
+
+.social p {
+
+	margin:  6px 0 2px 0;
+	font-size: 0.85em;
+}
+
+/* Navidation */
+
+nav {
+
+	clear: both;
+	border: 1px solid #ccc;
+	width: 958px;
+	height: 45px;
+	
+}
+
+.main-nav {
+
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.main-nav li {
+
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 45px;
+	border-right: 1px solid  #ccc;
+}
+
+
+.main-nav li a {
+
+
+	color: #a1a1a1;
+	text-decoration: none;
+	width: 100px;
+	height: 31px;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 14px;
+	transition: background-color .5s;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+
+
+}
+
+.main-nav li a:hover {
+
+	background-color: #eee;
+}
+
+.search {
+
+	color: #a1a1a1;
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+.search input {
+
+	border: 1px solid #a1a1a1;
+	background-color: #eee;
+	border-radius: 30px;
+	padding-left: 8px;
+}
+
+.search a {
+
+	text-decoration: none;
+	color: #a1a1a1;
+}
+
+
+
+
