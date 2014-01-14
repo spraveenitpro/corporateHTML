@@ -186,5 +186,111 @@ nav {
 }
 
 
+/* Content Slider */
+
+.slider {
+	background: #eee url('../img/slider-bg.jpg') no-repeat;
+	width: 960px;
+	height: 260px;
+	margin-top: 20px;
+	position: relative;
+
+}
+
+.slider-prev, .slider-next {
+
+	color: #444;
+	font-size: 22px;
+	text-decoration: none;
+	opacity: .5;
+	position: absolute;
+	top: 115px;
+	transition: opacity .5s;
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+
+
+
+}
+
+.slider-prev:hover, .slider-next:hover {
+
+	opacity: 100;
+}
+
+.slider-prev {
+
+	left: 10px;
+}
+
+.slider-next {
+
+	right: 10px;
+}
+
+.slide-image {
+
+	position: absolute;
+	top: 15px;
+	left: 80px;
+
+}
+
+.slide-content {
+
+	width: 50%;
+	position: absolute;
+	right: 80px;
+}
+
+.slider-title {
+
+	font: 55px "Trebuchet MS", Tahoma, sans-serif;
+	font-weight: bold;  
+	line-height: 35px;
+	margin-bottom: 5px;
+}
+
+.slider-title span {
+
+	color: #a1a1a1;
+	font-size: 30px;
+	font-weight: regular;
+
+}
+
+.slider-button {
+
+	background-color: #8bcf48;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	width: 280px;
+	height: 40px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+
+	transition: background-color .5s;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+
+
+
+}
+
+.slider-button:hover {
+
+	background-color: #9cdf59;
+}
+
+.slider-button span {
+
+	font-size: 14px;
+}
+
+
+
 
 
